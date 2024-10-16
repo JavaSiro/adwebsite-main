@@ -2,14 +2,16 @@
     margin:0;
     padding:0;
     font-family: "Oswald", sans-serif;
+    font-size: 20px;
 }
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/R.jpg)
+    background-image:  url(images/N.jpg)
     ;
     background-position: center;
     background-size: cover;
+    background-color: #ffff;
     position: relative;
 }
 nav{
@@ -26,6 +28,10 @@ nav img{
     display: inline-block;
     padding: 8px 12px;
     position: relative;
+
+}
+.nav-links a{
+    color:#000000;
 }
 .text-box{
     width: 90%;
@@ -42,7 +48,7 @@ nav img{
 .text-box p{
     margin:10px 0 40px;
     font-size: 30px;
-    color:#fff;
+    color:#ffffff;
 }
 .text-box a{
     font-size:20px;
@@ -57,4 +63,32 @@ nav img{
     background: transparent;
     position: relative;
     cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #ffff;
+    background: #ffffff5b;
+    transition:0.5s;
+}
+@media(max-width: 700px){
+    .text-box h1{
+        font-size:20px;}
+    }
+@media(max-width: 700px){
+    .text-box p{
+        font-size:15px;
+}
+.nav-links ul li{
+    display:block;
+}
+.nav-links{
+    position:absolute;
+    background: transparent;
+    height: 100vh;
+    width:140px;
+    top: 0;
+    right:0;
+    text-align: left;
+    z-index:2;
+
+}
 }
