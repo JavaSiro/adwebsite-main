@@ -117,7 +117,7 @@ h1{
     font-weight:600;
 }
 p{
-    color:#ffffff;
+    color:#000000;
     font-size:14px;
     font-weight:300;
     line-height:22px;
@@ -130,7 +130,7 @@ p{
 }
 .website-col{
     flex-basis:31%;
-    background:#663915be;
+    background:#8f6441be;
     border-radius:10px;
     margin-bottom:5%;
     padding:20px 12px;
@@ -143,10 +143,18 @@ h3{
     margin:10px 0;
 }
 .website-col:hover{
-    box-shadow: 0 0 20px 0px rgb(0, 0, 0);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.767);
 }
 @media(max-width: 700px){
     .row{
         flex-direction: column;
     }
+    }
+    /*----campus------*/
+    .campus{
+        width:80%;
+        margin:auto;
+        text-align: center;
+        padding-top:50px;
+
     }
